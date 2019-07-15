@@ -8,12 +8,15 @@ def GenerateRandomValue() :
 
 
 def Distance( x, y ) :
+
     dist =  math.sqrt( x*x + y*y )
+
     return dist
 
 
 sum = 0
 num_of_times = 100000
+
 
 for i in range( num_of_times ) :
     point_x = GenerateRandomValue()
